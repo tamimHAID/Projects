@@ -6,10 +6,20 @@ menu = {
     "Sweets": 350
 }
 
-print("Welcome to my Restaurant! Here is the menu:")
+print(
+    """
+    Welcome to my Restaurant, Please order your food
+    Coffee : 200,
+    Burger : 300,
+    Chicken : 500,
+    Ice cream : 150,
+    Sweets : 350
+    """
+)
+"""
 for item, price in menu.items():
     print(f"{item} : {price} BDT")
-
+"""
 total_price = 0
 
 while True:
@@ -25,3 +35,4 @@ while True:
         break
 
 print(f"\nYour final total is {total_price} BDT. Thank you for dining with us!")
+
